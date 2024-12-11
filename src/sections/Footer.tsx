@@ -2,7 +2,7 @@
 import Logo from "@/images/faq-logo.svg";
 import SocialX from "@/assets/social-x.svg";
 import SocialInsta from "@/assets/social-insta.svg";
-import SocialLinkedIn from "@/assets/social-LinkedIn.svg";
+
 import SocialPin from "@/assets/social-pin.svg";
 import SocialYoutube from "@/assets/social-youtube.svg";
 
@@ -35,7 +35,7 @@ export const Footer = () => {
         <div className="flex justify-center gap-6 mt-6">
           <SocialX />
           <SocialInsta />
-          <SocialLinkedIn />
+          
           <SocialYoutube />
           <SocialPin />
         </div>
