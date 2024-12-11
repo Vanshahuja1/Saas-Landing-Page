@@ -3,7 +3,7 @@
 import ArrowRight from '@/assets/arrow-right.svg';
 import StarImage from '@/assets/star.png';
 import SpringImage from '@/assets/spring.png';
-import Image from 'next/image';
+
 import Outlines from '@/images/bg-outlines.svg';
 import { motion ,useScroll ,useTransform } from 'framer-motion';
 import { useRef } from 'react';
@@ -34,7 +34,7 @@ export const CallToAction = () => {
           <p className="under-title mt-5">
             Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.
           </p>
-          {/* Responsive images hidden on small devices and visible on medium and larger devices */}
+          
           <motion.img 
             src={StarImage.src} 
             alt="star image" 

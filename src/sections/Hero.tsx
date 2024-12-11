@@ -5,7 +5,7 @@ import Image from 'next/image';
 import heroImage from "@/images/heroo.png"; // Ensure this path is correct
 import nextImage from "@/assets/cylinder.png"; // Ensure this path is correct
 import image from "@/assets/noodle.png";
-import {motion , useScroll , useTransform , useMotionValueEvent } from 'framer-motion';
+import {motion , useScroll , useTransform  } from 'framer-motion';
 
 export const Hero = () => {
   const heroRef = useRef(null);
