@@ -8,7 +8,7 @@ export const Header = () => {
       {/* Top notification bar */}
       <div className="flex justify-center items-center py-3 bg-black text-white text-small gap-3">
         <p className="text-white/60 hidden md:block">
-          Connect & Hire best With ArtConnect
+          Connect & Hire best 
         </p>
         <div className="inline-flex gap-1 items-center">
           <p>Welcome to our website</p>
